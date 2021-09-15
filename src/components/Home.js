@@ -1,31 +1,14 @@
 import React from 'react';
+import Main from './Main';
 
 const Home = () => (
-  <div className="d-flex justify-center align-center">
-    <div>
-      <div className="mt-10">
-        <input
-          className="input"
-          type="text"
-          required
-          placeholder="Enter email"
-        />
-      </div>
-      <div className="mt-10">
-        <input
-          className="input"
-          type="password"
-          required
-          placeholder="Enter password"
-        />
-      </div>
-      <div className="mt-10">
-        <button className="input" type="submit">
-          Sign In
-        </button>
-      </div>
-    </div>
-  </div>
+    <Main title="Welcome To Library App">
+        <div className="d-flex justify-center align-center">
+            <div>
+                <h2>Home Page</h2>
+            </div>
+        </div>
+    </Main>
 );
 
 export default Home;
