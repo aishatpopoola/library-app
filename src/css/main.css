@@ -1,0 +1,11 @@
+.navbar {
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+  justify-content: space-between;
+}
+
+.input {
+  padding: 10px;
+  border: 1px solid lightgrey;
+}
