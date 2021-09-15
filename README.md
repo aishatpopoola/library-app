@@ -1,70 +1,109 @@
-# Getting Started with Create React App
+# LIBRARY APP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Library app is an app used to store books like in a normal library. It is designed to my skills withs using HTML,CSS and Javascript and React as well as calling and making use of api endpoints from backend.
 
-## Available Scripts
+![screenshot](./app_screenshot.png)
 
-In the project directory, you can run:
+The project demonstrates the use of React and Redux to use and manipulate data coming from a backend api to design an App, in this case a library app.
 
-### `npm start`
+## Features
+### Authentication Features
+- User login feature
+- User Registration feature
+- User logout feature
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Book Feature
+- Create a Book
+- Get the lists of all Books by a user
+- Get a single Book
+- Update A Book
+- Delete A Book
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Technology Used
 
-### `npm test`
+- HTML
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  - Semantic HTML
 
-### `npm run build`
+- CSS
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  - CSS Flexbox
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [React](https://reactjs.org/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [Redux](https://redux.js.org/)
 
-### `npm run eject`
+- Javascript
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- [stylint](https://stylelint.io/)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [NPM](https://www.npmjs.com/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Live Demo
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+[coming-soon]()
 
-## Learn More
+### Development (Running locally)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Clone the project
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+git clone
 
-### Code Splitting
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Install Dependencies
 
-### Analyzing the Bundle Size
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+To run the lint task:
 
-### Making a Progressive Web App
+```bash
+npm run lint:check
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Or to automatically fix issues found (where possible):
 
-### Advanced Configuration
+```bash
+npm run lint
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Style Guides
 
-### Deployment
+- [CSS Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/css.html)
+- [HTML Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/index.html)
+- [JavaScript Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/javascript.html)
+- [Git Style Guide](https://udacity.github.io/git-styleguide/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 👤 Author
 
-### `npm run build` fails to minify
+### Popoola Aishat
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Github: [@aishatpopoola](https://github.com/aishatpopoola/)
+- LinkedIn: [aishat-popoola](www.linkedin.com/in/aishat-popoola)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- [MDN](https://developer.mozilla.org/)
+
+- [w3schools](https://www.w3schools.com/)
+
+- [React](https://reactjs.org/)
+
+- [Redux](https://redux.js.org/)
+
+## 📝 License
+
+[MIT licensed](./LICENSE).
