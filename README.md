@@ -48,7 +48,7 @@ The project demonstrates the use of React and Redux to use and manipulate data c
 - Clone the project
 
 ```bash
-git clone
+git clone https://github.com/aishatpopoola/library-app.git
 
 ```
 
