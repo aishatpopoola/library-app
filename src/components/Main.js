@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 
 const Main = ({ children, title }) => (
     <main className="p-10 m-10">
+        <div className="alert text-center d-none" id="main"></div>
         {title && (
             <div className="mb-10 mt-10">
                 <h2 className="text-center">{title}</h2>

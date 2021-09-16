@@ -1,27 +1,24 @@
-import { FETCH_LOGIN_FAILURE, FETCH_LOGIN_SUCCESS } from '../actions';
+import { FETCH_LOGIN_FAILURE, FETCH_LOGIN_SUCCESS } from '../actions/types';
 
 const authenticationReducer = (
-  authState = {
-    user: [],
-    error: '',
-  },
+  state = {},
   action,
 ) => {
   switch (action.type) {
     case FETCH_LOGIN_SUCCESS:
       return {
-        ...authState,
+        ...state,
         user: [action.payload],
         error: '',
       };
     case FETCH_LOGIN_FAILURE:
       return {
-        ...authState,
+        ...state,
         user: [],
         error: action.payload,
       };
     default:
-      return authState;
+      return state;
   }
 };
 

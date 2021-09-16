@@ -12,7 +12,13 @@ import rootReducer from './reducers/index';
 Axios.defaults.baseURL = 'https://sleepy-dusk-82973.herokuapp.com/api/';
 Axios.defaults.withCredentials = true;
 
-const initialState = {};
+const initialState = {
+  username: '',
+  auth: {
+    user: [],
+    error: '',
+  },
+};
 const store = createStore(rootReducer, initialState, applyMiddleware(thunk));
 
 ReactDOM.render(
