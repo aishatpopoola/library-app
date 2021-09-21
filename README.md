@@ -5,6 +5,7 @@
 ![screenshot](./app_screenshot.png)
 
 The project demonstrates the use of React and Redux to use and manipulate data coming from a backend api to design an App, in this case a library app.
+The library app is not only used to store books but also serves as a means evaluating knowledge and as a reserch instititute
 
 ## Features
 ### Authentication Features
